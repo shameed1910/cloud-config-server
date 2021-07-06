@@ -2,10 +2,8 @@ spring:
   application:
     name: ConfigClient
 
-
 server:
   port: 8085
-
 
 management:
   endpoints:
