@@ -1,0 +1,15 @@
+server:
+  port: 8085
+  
+spring:
+ applicaiton:
+    name: ConfigClient
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+welcome:
+  message: welcome to default environment
