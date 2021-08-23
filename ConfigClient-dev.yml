@@ -27,7 +27,7 @@ spring:
   boot:
     admin:
       client:
-        url: http://localhost:8766
+        url: http://localhost:8767
 
 logging:
   file:
