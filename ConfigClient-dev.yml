@@ -1,3 +1,7 @@
+welcome:
+  message: Hello Guys
+
+
 management:
   endpoints:
     web:
