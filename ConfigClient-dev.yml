@@ -1,6 +1,5 @@
 welcome:
-  message: Hello Guys Welcome to my channel !
-
+  message: Hello Guys
 
 management:
   endpoints:
@@ -27,7 +26,19 @@ spring:
   boot:
     admin:
       client:
-        url: http://localhost:8767
+        url: http://localhost:8765
+        
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    cloud:
+      bus:
+        enabled: true
+        refresh:
+          enabled: true
+
 
 logging:
   file:
@@ -46,4 +57,4 @@ eureka:
       defaultZone: http://localhost:8761/eureka
 
 
-
+ 
