@@ -1,5 +1,5 @@
 welcome:
-  message: welcome to test environment
+  message: welcome to test environment from config server
 
 management:
   endpoints:
