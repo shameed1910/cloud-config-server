@@ -7,7 +7,7 @@ management:
   security:
     enabled: false
 welcome:
-  message: welcome to default environment
+  message: welcome to default environment from config sever
 
 spring:
   datasource:
