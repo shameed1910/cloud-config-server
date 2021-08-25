@@ -1,5 +1,5 @@
 welcome:
-  message: welcome to default environment
+  message: welcome to test environment
 
 management:
   endpoints:
