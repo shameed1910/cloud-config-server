@@ -1,0 +1,17 @@
+Hi Shameed,
+
+I just now saw your Springboot app with pg on kubernetes and its previous (spring data crud API) video in youtube.
+I need help in completing a task written below, Can you please help me with it ? 
+I have the zip file of the app which consists of .py files, I am not sure about the part how to dockerize the application like creating appropriate Image with the REST API and Webapplication running.
+
+Task -
+
+1) Create a deployment for a REST API of a given blog application that uses the pg database. It is expected that you create your own Dockerfile for this image. Ensure that the application can scale horizontally. Create an appropriate type of Service such that the REST API can be accessed by the Web Application. Depending on where the Web Application runs, this might require the Web API to be exposed outside of the cluster.
+2) Create a Deployment/Statefulset, a Service and a Persistent Volume, Persistent Volume Claim for a database for Postgres sql. You can use a pre-built docker image for this database, or a pre-built Helm chart that you package as a sub. Ensure that the Service exposed by the database is such that it can be accessed by the REST API, but not by users outside of the cluster. Ensure that the configuration of the database makes use of ConfigMaps and Secrets appropriately.
+3) Create an appropriate type of Service/Ingress/API Gateway, such that the application can be accessed by users outside of the cluster.
+4) Create a Helm Chart to package the deployment of the entire application so it can be installed with a single command.
+5) Configure application monitoring with Prometheus.
+6) Create a jenkins pipeline file. Host the blog api on github or any git. Any changes that are pushed to git repo should create a new deployment on kubernetes without any downtime. (Docker image or containerd images should be pushed to image registries) 
+
+
+Please Reach Out to sowmithpuvvadi@gmail.com/8136848889 in case you are interested in understanding the application and helping me out.
